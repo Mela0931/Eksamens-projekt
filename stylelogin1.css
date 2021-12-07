@@ -1,0 +1,39 @@
+@media screen and (max-width: 450px) and (max-height: 900px) {
+    body {
+       
+    
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 2fr 1fr 2fr;
+    }
+
+    .filler{
+        margin-bottom: 15em;
+    }
+    
+
+    p {
+        text-align: center;
+    }
+
+    .login{
+        width: 250px;
+        height: 80px;
+        background: url("Login.png");
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+
+    .signup{
+        width: 250px;
+        height: 80px;
+        background: url("Signup.png");
+        grid-column-start: 2;
+        grid-row-start: 3;
+    }
+}
+
+
