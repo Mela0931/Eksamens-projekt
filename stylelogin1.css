@@ -24,9 +24,15 @@
 
     p {
         text-align: center;
+<<<<<<< HEAD
         color: white;
         font-size: 25px;
         grid-row: 2;
+=======
+        font-family:delivery;
+        font-style:italic;
+        font-weight: bold;
+>>>>>>> ffb4ca259eb59ea816835f31ea36fddd512411bc
     }
 
     .login{

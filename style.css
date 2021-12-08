@@ -7,8 +7,30 @@
          }
          img{
              margin-top: 20em;
-             margin-left: 1em;
-         }
+             max-width: 100%;
+            margin-left: 10em;
+
+            }
+
+        .city {
+            max-width: 60em;
+            align-content:center;
+            margin:0em;
+            margin-top: 160px;
+
+            
+             }
+
+        div{ 
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            flex:100%;
+           
+            
+        
+        }
 }
 
 
