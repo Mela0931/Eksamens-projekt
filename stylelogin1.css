@@ -18,7 +18,7 @@
 
     .filler{
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
 
     }
     
@@ -28,6 +28,8 @@
         font-family:delivery;
         font-style:italic;
         font-weight: bold;
+        font-size: 30px;
+        color: white;
     }
 
     .login{

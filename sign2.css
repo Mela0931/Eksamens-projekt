@@ -4,7 +4,16 @@
         font-family: Delivery;
         color: white;
         text-align: center;
+        margin-top: 2em;
+        font-size: 30px;
 
+    }
+    h4{
+        font-family: Delivery;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 1em;
     }
 
     body{
@@ -24,7 +33,7 @@
         color: white;
         text-align: center;
         align-content: center;
-        margin-top: 15em;
+        margin-top: 11em;
 
     }
 
@@ -38,24 +47,33 @@
 
     }
 
+    
+
+    .StepNext{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr;
+
+    }
+    .Next{
+        justify-self: center;
+        width: 281px;
+        height: 56px;
+        background: url("Next.png");
+        grid-column: 2;
+        grid-row: 2;
+
+        
+       
+    }
     h3{
         font-family: Delivery;
         color: white;
         text-align: center;
         margin-top: 5em;
+        grid-column: 2;
+        grid-row: 1;
 
-
-    }
-
-    button{
-        height: 4em;
-        width: 20em;
-        margin-left: 6.5em;
-        background-color: #D40511;
-        border: #D40511;
-        font-family: Delivery;
-        
-       
     }
 
     .Phonenumber{
@@ -63,6 +81,9 @@
         border: 1em;
         border-color: #707070;
         max-height: 50px;
+    }
+    input[type="text"]{
+        text-align: center;
     }
 
         
