@@ -1,8 +1,9 @@
 .topbarcontainer {
     background-color: #FFCC00;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -11,6 +12,19 @@
     border: none;
 }
 
-.redtext [
+.redtext {
+    color: #D40511;
     
-]
+}
+.postboxcontainer {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.pickuptext {
+    align-self: center;
+}
+
+.postboxpng {
+    align-self: center;
+}
