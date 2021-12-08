@@ -2,12 +2,13 @@
  
     body{
         background-color: #212121;
-        
+        font-family: delivery;
 
     }
 
 
     h1{
+        margin-top: 2em;
         margin-left: 100px;
         color: white;
     }
@@ -54,7 +55,7 @@
     .StepSubmit{
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 6fr 1fr 1fr;
+        grid-template-rows: 4fr 1fr 1fr;
     }
 
     h3{

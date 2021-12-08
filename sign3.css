@@ -1,0 +1,64 @@
+@media only screen and (max-width: 450px) and ( max-height: 900px) {
+    body{
+        background-color: #212121;
+        font-family: delivery;
+
+    }
+
+    h1{
+        margin-top: 2em;
+    }
+    h1,h2 {
+        text-align: center;
+        color: white;
+    }
+
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .Pincode{
+        margin-top: 5em;
+        background-color: #BBBBBB;
+        border: 1em;
+        border-color: #707070;
+        height: 50px;
+
+    }
+    input[type="Pin"]{
+        text-align: center;
+    }
+
+    .StepConfirm{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 4fr 1fr 1fr;
+    }
+
+    h3{
+        color:white;
+        text-align: center;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .ConfirmPin{
+        justify-self: center;
+        width: 281px;
+        height: 56px;
+        background: url("ConfirmPin.png");
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+
+
+
+
+
+
+
+
+}
