@@ -1,0 +1,76 @@
+@media only screen and (max-width: 450px) and ( max-height: 900px) {
+
+    h1{
+        font-family: Delivery;
+        color: white;
+        text-align: center;
+
+    }
+
+    body{
+        background-color: #212121;
+    }
+
+    input{
+        margin-top: 2em;
+        height: 3em;
+        width: 25em;
+        margin-left: 3.5em;
+    
+    }
+
+    h2{
+        font-family: Delivery;
+        color: white;
+        text-align: center;
+        align-content: center;
+        margin-top: 15em;
+
+    }
+
+    p{
+        font-family: Delivery;
+        color: white;
+        text-align: center;
+        text-decoration: underline;
+        color: #D40511;
+        font-size: 1.5em;
+
+    }
+
+    h3{
+        font-family: Delivery;
+        color: white;
+        text-align: center;
+        margin-top: 5em;
+
+
+    }
+
+    button{
+        height: 4em;
+        width: 20em;
+        margin-left: 6.5em;
+        background-color: #D40511;
+        border: #D40511;
+        font-family: Delivery;
+        
+       
+    }
+
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+}
