@@ -28,11 +28,13 @@
 
 .postboxpng {
     align-self: center;
+    max-width: 75%;
 }
 
 .connectbutton__container {
     display: flex;
     justify-content: center;
+    margin-top: 2em;
 }
 
 .connectbutton {
@@ -43,4 +45,18 @@
     height: 12rem;
     width: 12rem;
     text-align: center;
+}
+
+.needhelptext__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.needhelptext {
+    align-self: center;
+}
+.parcelID {
+    align-self: center;
+    color: #707070;
 }
