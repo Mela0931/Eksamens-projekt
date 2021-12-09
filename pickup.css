@@ -10,6 +10,7 @@
 
 body{
     background-color: #F9F9F9;
+    margin: 0%;
 }
 
 h1{
@@ -47,5 +48,142 @@ h3{
         text-decoration: underline;  
         font-size: 1.5em;
     }
+
+
+    .menu{
+        height: 50px;
+        width: 50px;
+        background: url("menutop.png") no-repeat center;
+        border: none;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    .Back{
+        background: url("toppil.png") no-repeat center;
+        border: none;
+        margin-left: 7%;
+        margin-right: 7%;
+        width: 50px;
+        height: 50px;
+    }
+
+    .top{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items:center;
+        align-content: center;
+
+    }
+
+
+    .top p{
+        text-align: center;
+        color: #D40511;
+        font-size: 2em;
+        font-weight: bold;
+        font-family: delivery;
+        
+    }
+
+
+
+
+
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color:#CDCDCD;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidebar a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        font-size: 36px;
+        margin-right: 50px;
+        background: #FFCC00;
+        color: black;
+        font-weight: bold;
+        width: 250px;
+        
+        padding: 0;
+
+        padding-top: 27px;
+        padding-bottom: 27px;
+        padding-left: 32px;
+        
+      }
+
+      .navContainer{
+          display: grid;
+          grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+      }
+      .Parcels{
+          grid-row: 2;
+      }
+      .History{
+          grid-row: 3;
+      }
+      .CallCS{
+          grid-row: 4;
+      }
+      .Howto{
+          grid-row: 5;
+      }
+      .Logout{
+          grid-row: 6;
+      }
+
+
+
+      .top {
+        transition: margin-right .5s;
+        padding: 16px;
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      .container{
+          display: grid;
+          grid-template-columns: 1fr 2fr 1fr;
+          grid-template-rows: 3fr 2fr 1fr 2fr;
+      }
+      .PickupParcel{
+          width: 319px;
+          height: 54px;
+          background: url("PickupParcel.png");
+          grid-column: 2;
+          grid-row: 2;
+
+
+      }
+      .SpecificDirections{
+        width: 319px;
+        height: 54px;
+        background: url("SpecificDirections.png");
+        grid-column: 2;
+        grid-row: 4;
+      }
 
 }
