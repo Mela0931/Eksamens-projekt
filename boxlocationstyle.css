@@ -1,0 +1,45 @@
+body {
+    background-color:#FFCC00;
+}
+.topbarcontainer {
+    background-color: #FFCC00;
+    height: 3em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.topbarbutton {
+    background-color: transparent;
+    border: none;
+}
+.lockerfound__button {
+    background-color: white;
+    border: solid #D40511 1px;
+    border-radius: 7%;
+    max-width: 50%;
+    align-self: center;
+    height: 3em;
+}
+.redtext {
+    color: #D40511;
+}
+.lockerinfo__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly center;
+    gap: 1.5em;
+}
+.lockerinfo__helptext {
+    align-self: center;
+    text-align: center;
+}
+.moreinfo {
+    align-self: center;
+    text-align: center;
+}
+h2 {
+    align-self: center;
+}
+
