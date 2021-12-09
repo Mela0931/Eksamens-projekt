@@ -31,14 +31,6 @@
                 margin-top: 1.5em;
             }  
 
-        h3{
-            font-family: delivery;
-            text-align: center;
-            color: #D40511;
-            text-decoration: underline;
-            font-size:1.5em;
-        }
-
         p{
             text-align: center;
             color: #D40511;
@@ -156,6 +148,7 @@
           .container{
               display: grid;
               grid-template-columns: 1fr 2fr 1fr;
+              grid-template-rows: 2fr 1fr 1fr;
           }
           .FoundLocker{
               background: url("FoundLocker.png") no-repeat center;
@@ -163,6 +156,15 @@
               height: 54px;
               grid-column: 2;
           }
+          .support{
+            font-family: delivery;
+            text-align: center;
+            color: #D40511;
+            text-decoration: underline;
+            font-size:1.5em;
+            grid-column: 2;
+            grid-row: 3;
+        }
 
 
 
