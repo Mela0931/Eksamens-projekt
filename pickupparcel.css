@@ -14,17 +14,33 @@
 
 .redtext {
     color: #D40511;
-    
 }
+
 .postboxcontainer {
-    margin-top: 2em;
+    margin-top: 4em;
     display: flex;
     flex-direction: column;
 }
+
 .pickuptext {
     align-self: center;
 }
 
 .postboxpng {
     align-self: center;
+}
+
+.connectbutton__container {
+    display: flex;
+    justify-content: center;
+}
+
+.connectbutton {
+    background-color: #05D4C6;
+    border: solid #FFCC00;
+    margin-top: 5em;
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+    text-align: center;
 }
