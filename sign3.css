@@ -2,6 +2,7 @@
     body{
         background-color: #212121;
         font-family: delivery;
+        background-image: radial-gradient(rgba(255, 255, 255, 0.103), rgb(54, 47, 47), black);
 
     }
 
@@ -34,7 +35,7 @@
     .StepConfirm{
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 5fr 1fr 1fr;
+        grid-template-rows: 3fr 1fr 1fr;
     }
 
     h3{

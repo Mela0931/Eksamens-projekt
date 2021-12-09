@@ -17,11 +17,12 @@
     }
 
     body{
-        background-color: #212121;
+        background-image: radial-gradient(rgba(255, 255, 255, 0.103), rgb(54, 47, 47), black);
+        background-color:#212121;
     }
 
     input{
-        margin-top: 2em;
+        margin-top: 1em;
         height: 3em;
         width: 25em;
         margin-left: 3.5em;
@@ -33,7 +34,7 @@
         color: white;
         text-align: center;
         align-content: center;
-        margin-top: 11em;
+        margin-top: 5em;
 
     }
 
@@ -70,7 +71,6 @@
         font-family: Delivery;
         color: white;
         text-align: center;
-        margin-top: 5em;
         grid-column: 2;
         grid-row: 1;
 

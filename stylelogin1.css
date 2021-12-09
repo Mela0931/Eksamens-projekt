@@ -1,6 +1,7 @@
 @media screen and (max-width: 450px) and (max-height: 900px) {
+    
     body {
-
+        background-image: radial-gradient(rgba(255, 255, 255, 0.103), rgb(54, 47, 47), black);
         background-color: #212121;
         font-family: delivery;
 
@@ -47,6 +48,12 @@
         grid-column-start: 2;
         grid-row-start: 3;
     }
-}
 
+    .box{
+        margin-left: 9em;
+        width: 8em;
+    }
 
+    
+    
+    }
