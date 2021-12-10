@@ -1,5 +1,4 @@
 @media only screen and (max-width: 450px) and ( max-height: 900px) {
-
     body{
         margin: 0em;
     
@@ -36,8 +35,12 @@
     .pickuptext {
         align-self: center;
         font-family: delivery;
-        font-size: 1.5em;
-        margin-top: 3em;
+        font-size: 2em;
+        text-align: center;
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight:bold;
     }
     
     .postboxpng {
@@ -45,34 +48,19 @@
         max-width: 75%;
     }
     
-    .connectbutton__container {
-        display: flex;
-        justify-content: center;
-        margin-top: 1em;
-    }
     
-    .connectbutton {
-        background-color: #05D4C6;
-        border: solid #FFCC00;
-        margin-top: 5em;
-        border-radius: 50%;
-        height: 12rem;
-        width: 12rem;
-        text-align: center;
-        font-family: delivery;
-        font-size: 1em;
-    }
     
-    .needhelptext__container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .needhelptext {
+    .pickuptext2{
         align-self: center;
         font-family: delivery;
+        font-size: 2em;
+        text-align: center;
+        margin-left: 1em;
+        margin-right: 1em;
+        
     }
+    
+    
     .parcelID {
         align-self: center;
         color: #707070;
@@ -80,11 +68,10 @@
     }
     
     .package{
+        
         display: block;
       margin-left: 2em;
-      margin-top: 2em;
-      
-      width: 40%;
+      width: 30%;
     }
     
     .menubutton {
@@ -94,4 +81,19 @@
     .backbutton{
         margin-left: 3em;
     }
+
+    .knap{
+        width: 40%;
+        margin-top: 10em;
+    }
+    .done{
+        margin-left: 2em;
+
+    }
+
+    .reopen{
+        width: 43%;
+        margin-left: 1em;
+    }
+    
     }
