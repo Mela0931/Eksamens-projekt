@@ -1,0 +1,99 @@
+@media only screen and (max-width: 450px) and ( max-height: 900px) {
+    body{
+        margin: 0em;
+    
+    }
+    
+    .topbarcontainer {
+        background-color: #FFCC00;
+        height: 4em;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    
+    .topbarbutton {
+        background-color: transparent;
+        border:none;
+    }
+    
+    .redtext {
+        color: #D40511;
+        font-size: 1.5em;
+        font-family: delivery;
+    
+    }
+    
+    .postboxcontainer {
+        margin-top: 0em;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .pickuptext {
+        align-self: center;
+        font-family: delivery;
+        font-size: 2em;
+        text-align: center;
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight:bold;
+    }
+    
+    .postboxpng {
+        align-self: center;
+        max-width: 75%;
+    }
+    
+    
+    
+    .pickuptext2{
+        align-self: center;
+        font-family: delivery;
+        font-size: 2em;
+        text-align: center;
+        margin-left: 1em;
+        margin-right: 1em;
+        
+    }
+    
+    
+    .parcelID {
+        align-self: center;
+        color: #707070;
+        font-family: delivery;
+    }
+    
+    .package{
+        
+        display: block;
+      margin-left: 2em;
+      width: 30%;
+    }
+    
+    .menubutton {
+        margin-right: 3em;
+    }
+    
+    .backbutton{
+        margin-left: 3em;
+    }
+
+    .knap{
+        width: 40%;
+        margin-top: 10em;
+    }
+    .done{
+        margin-left: 2em;
+
+    }
+
+    .reopen{
+        width: 43%;
+        margin-left: 1em;
+    }
+    
+    }
