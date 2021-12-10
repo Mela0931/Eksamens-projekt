@@ -4,35 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="retrun.css">
+    <link rel="stylesheet" href="return.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="menu">
-        <img src="toppil.png" alt="" class="Pil">
-        <h1>home</h1>
-        <img src="menutop.png" alt="" class="gomenu">
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn"onclick="closeNav()">×</a>
+        <div class="navContainer">
+            <a href="/home.html" class="Parcels">Your Parcels</a>
+            <a href="/History.html" class="History">History</a>
+            <a href="/Support.html" class="CallCS">Call customer service</a>
+            <a href="/Howto.html" class="Howto">How to use DHL infinity</a>
+            <a href="#" class="Logout">Log out</a>
+        </div>
+    </div>
 
+    <div class="top">
+        <a href="/pickup.html" class="Back"></a>
+        <p>Locker location</p>
+        <button class="menu" onclick="openNav()"></button>
     </div>
 
     
 
-    <div>
-        <img src="return.png" alt="" class="pickup">
-        <h2>SwipeBox Headquarter</h2>
-        <p class="adress">Ellegårdsvej 7 6400 Sønderborg</p>
-        
+    <div class="PickupDropoff">
+        <a href="/return.html" class="Dropoff"></a>
+        <a href="/home.html" class="Pickup"></a>
     </div>
-
+    <h2>SwipeBox Headquarter</h2>
+        <p class="adress">Ellegårdsvej 7 6400 Sønderborg</p>
 
     <hr>
 
     <p> The parcel locker stands in front of the main
         Entrance to SwipeBox Headquarters </p>
 
-    <div>
-        <img src="Drop off.png" alt="">
-        <img src="Drop off.png" alt="">
+    <div class="CardContainer">
+        <a href="/pickup.html" class="card1"></a>
+        <a href="/pickup.html" class="card2"></a>
     </div>
+ 
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginRight = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("top").style.marginRight = "0";
+        }
+    </script>
 </body>
 </html>
