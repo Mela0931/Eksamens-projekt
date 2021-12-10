@@ -13,18 +13,6 @@ x
         margin: 0em;
     }
 
-    .gomenu {
-        height:1.5em;
-        width: 2em;
-        margin-top: 1.5em;
-        margin-left: 5em;    
-    }
-
-    .pickup{
-        margin-left: 7em;
-    
-    }
-
     h1{
         font-family: delivery;
         margin-left: 2em;
@@ -220,6 +208,26 @@ x
         grid-row: 3;
     }
 
+
+    .PickupDropoff{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+        grid-template-rows: 3fr 1fr;
+    }
+    .Dropoff{
+        width: 113px;
+        height: 28px;
+        background: url("Dropoff knap.png") no-repeat center;
+        grid-column: 3;
+        grid-row: 2;
+    }
+    .Pickup{
+        width: 113px;
+        height: 28px;
+        background: url("Pickup knap.png") no-repeat center;
+        grid-column: 2;
+        grid-row: 2;
+    }
 
 
 
