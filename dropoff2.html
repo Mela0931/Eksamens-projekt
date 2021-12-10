@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dropoff2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn"onclick="closeNav()">×</a>
+        <div class="navContainer">
+            <a href="/home.html" class="Parcels">Your Parcels</a>
+            <a href="/history.html" class="History">History</a>
+            <a href="/Support.html" class="CallCS">Call customer service</a>
+            <a href="/Howto.html" class="Howto">How to use DHL infinity</a>
+            <a href="#" class="Logout">Log out</a>
+        </div>
+    </div>
+
+    <div class="top">
+        <a href="/home.html" class="Back"></a>
+        <p>Locker location</p>
+        <button class="menu" onclick="openNav()"></button>
+    </div>
+
+    <h1 class="toptext">Choose the compartment size</h1>
+    <h1>that suits your parcel</h1>
+
+    <div class="container">
+        <a href="/dropoff3.html" class="Small"></a>
+        <a href="/dropoff3.html" class="Medium"></a>
+        <a href="/dropoff3.html" class="Large"></a>
+        <a href="/support.html" class="NeedMoreSpace">Need more space?</a>
+    </div>
+
+    
+
+
+    <img src="BoxWithCM.png" alt="">
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginRight = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("top").style.marginRight = "0";
+        }
+    </script>
+</body>
+</html>
