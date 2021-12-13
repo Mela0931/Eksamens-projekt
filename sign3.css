@@ -13,12 +13,16 @@
         text-align: center;
         color: white;
     }
+    h2{
+        margin-bottom: 39px;
+    }
 
 
     .container{
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 1fr 1fr;
+        margin-bottom: 50px;
     }
     .Pincode{
         margin-top: 5em;
@@ -35,7 +39,7 @@
     .StepConfirm{
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 3fr 1fr 1fr;
+        grid-template-rows: 4fr 1fr 1fr;
     }
 
     h3{
