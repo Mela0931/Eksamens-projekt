@@ -78,7 +78,9 @@
             font-size: 2em;
             font-weight: bold;
             font-family: delivery;
-            
+            text-decoration-line: none;
+            width: 222px;
+
         }
     
     

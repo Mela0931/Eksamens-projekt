@@ -70,7 +70,7 @@
         justify-self: center;
         width: 281px;
         height: 56px;
-        background: url("Submit.png");
+        background: url("Next.png");
         grid-column: 2;
         grid-row: 3;
     }

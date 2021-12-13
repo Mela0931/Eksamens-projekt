@@ -21,13 +21,6 @@
         background-color:#212121;
     }
 
-    input{
-        margin-top: 1em;
-        height: 3em;
-        width: 25em;
-        margin-left: 3.5em;
-    
-    }
 
     h2{
         font-family: Delivery;
@@ -53,7 +46,7 @@
     .StepNext{
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: 3fr 1fr 1fr;
 
     }
     .Next{
@@ -62,7 +55,7 @@
         height: 56px;
         background: url("Next.png");
         grid-column: 2;
-        grid-row: 2;
+        grid-row: 3;
 
         
        
@@ -72,15 +65,25 @@
         color: white;
         text-align: center;
         grid-column: 2;
-        grid-row: 1;
+        grid-row: 2;
 
     }
 
+
+
+    .InputContainer{
+        display: grid;
+        grid-template-columns: 1fr 217px 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
     .Phonenumber{
         background-color: #BBBBBB;
         border: 1em;
         border-color: #707070;
-        max-height: 50px;
+        height: 50px;
+    
+        grid-column: 2;
+        grid-row: 2;
     }
     input[type="text"]{
         text-align: center;
