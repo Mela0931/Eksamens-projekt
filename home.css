@@ -188,25 +188,14 @@ x
     }
 
 
-    .CardContainer{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 2fr 1fr 2fr;
-    }
+    
 
-    .card1{
+    .card{
+        display: block;
         width: 381px;
         height: 150px;
         background: url("Pakke.png") no-repeat center;
-        grid-column: 2;
-        grid-row: 1;
-    }
-    .card2{
-        width: 381px;
-        height: 150px;
-        background: url("Pakke.png") no-repeat center;
-        grid-column: 2;
-        grid-row: 3;
+        margin: 2em;
     }
 
 
